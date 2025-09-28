@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Club Manager — Hackathon</title>
+<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>School Club Manager</h1>
+      <p class="sub">Simple, fast, and easy — build & submit for participation certificate.</p>
+    </header>
+
+    <section class="form-section">
+      <h2>Add a Club</h2>
+      <form id="clubForm">
+        <input id="name" placeholder="Club name (required)" required />
+        <input id="contact" placeholder="Contact (email/phone)" />
+        <input id="meetings" placeholder="Meeting time/location" />
+        <textarea id="description" placeholder="Short description"></textarea>
+        <button type="submit">Add Club</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Clubs</h2>
+      <div id="clubsList" class="cards"></div>
+    </section>
+
+    <footer>
+      <small>Built for hackathon — Backend: Node.js + sqlite3 | Frontend: HTML/CSS/JS</small>
+    </footer>
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>

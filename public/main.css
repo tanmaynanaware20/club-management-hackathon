@@ -1,0 +1,15 @@
+*{box-sizing:border-box;font-family:Inter,system-ui,Arial,Helvetica,sans-serif}
+body{background:linear-gradient(135deg,#f6f8ff,#fff);margin:0;padding:20px;color:#111}
+.container{max-width:900px;margin:0 auto;background:white;padding:20px;border-radius:12px;box-shadow:0 6px 20px rgba(17,24,39,0.08)}
+header h1{margin:0;font-size:28px}
+.sub{color:#666;margin-top:6px}
+.form-section{margin-top:18px;padding:12px;background:#fbfbff;border-radius:8px}
+form input, form textarea{width:100%;padding:10px;margin:6px 0;border:1px solid #e6e6ee;border-radius:8px}
+form button{background:#334155;color:white;border:none;padding:10px 14px;border-radius:8px;cursor:pointer}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:12px}
+.card{padding:12px;border:1px solid #eef0ff;border-radius:10px;background:linear-gradient(180deg,#fff,#fbfdff)}
+.card h3{margin:0 0 6px 0}
+.card p{margin:6px 0;color:#334155}
+.card .meta{font-size:13px;color:#667085}
+.del-btn{background:#fee2e2;border:1px solid #fecaca;padding:6px 8px;border-radius:6px;cursor:pointer;margin-top:8px}
+footer{margin-top:18px;text-align:center;color:#94a3b8;font-size:13px}
